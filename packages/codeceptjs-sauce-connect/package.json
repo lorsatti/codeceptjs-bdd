@@ -8,9 +8,7 @@
         "Sauce Connect",
         "Sauce Tunnel"
     ],
-    "bin": {
-        "codeceptjs-sauce-connect": "./sauce.connect.launcher.js"
-    },
+    "bin": "./sauce.connect.launcher.js",
     "homepage": "https://gkushang.github.io/",
     "repository": {
         "type": "git",

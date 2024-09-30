@@ -18,9 +18,7 @@
         "email": "g.kushang@gmail.com"
     },
     "main": "./cli/create.js",
-    "bin": {
-        "create-codeceptjs-bdd-tests": "./cli/create.js"
-    },
+    "bin": "./cli/create.js",
     "scripts": {
         "acceptance": "codeceptjs def && codeceptjs run --verbose ",
         "acceptance:all": "yarn acceptance && yarn acceptance:parallel && DRIVER=webdriver yarn acceptance --profile sauce:chrome && DRIVER=webdriver yarn acceptance",
