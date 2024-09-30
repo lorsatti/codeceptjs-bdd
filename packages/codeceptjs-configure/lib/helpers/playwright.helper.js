@@ -7,7 +7,6 @@ const Helper = require('@codeceptjs/helper');
 class PlaywrightHelper extends Helper {
     /**
      * Constructor
-     *
      * @param config
      */
     constructor(config) {
